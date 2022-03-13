@@ -1,12 +1,10 @@
 import './App.css';
 import React from "react";
+import DotedLoadingAnimation from "./dotedLoadingAnimation/DotedLoadingAnimation";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header"> hello
-      </header>
-    </div>
+    <DotedLoadingAnimation></DotedLoadingAnimation>
   );
 }
 
